@@ -1,0 +1,23 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "The purpose of homework four is to convert everything to Sass",
+  "homepage": "https://github.com/ri12oe/homework4#readme",
+  "bugs": {
+    "url": "https://github.com/ri12oe/homework4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ri12oe/homework4.git"
+  },
+  "license": "ISC",
+  "author": "Mario E.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server"
+  },
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}
