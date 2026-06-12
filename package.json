@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server"
+    "serve": "live-server",
+    "compile:sass": "sass sass/main.scss css/styles.css -w"
   },
   "devDependencies": {
     "sass": "^1.101.0"
