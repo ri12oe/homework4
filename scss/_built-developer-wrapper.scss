@@ -38,21 +38,21 @@
 }
 
 
-@media (max-width:680px) {
-  .developer {
-    flex-direction: column-reverse;
-    gap: 32px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+// @media (max-width:680px) {
+//   .developer {
+//     flex-direction: column-reverse;
+//     gap: 32px;
+//     padding-top: 40px;
+//     padding-bottom: 60px;
 
-    .built-content {
-      width: 100%;
-      min-height: auto;
-    }
+//     .built-content {
+//       width: 100%;
+//       min-height: auto;
+//     }
 
-    .built-image {
-      width: 100%;
-      height: 250px;
-    }
-  }
-}
+//     .built-image {
+//       width: 100%;
+//       height: 250px;
+//     }
+//   }
+// }

@@ -59,54 +59,54 @@
 }
 
 
-@media (max-width:1120px) {
-  .hero {
-    gap: 24px;
-    justify-content: center;
-  }
-}
+// @media (max-width:1120px) {
+//   .hero {
+//     gap: 24px;
+//     justify-content: center;
+//   }
+// }
 
-@media (max-width:680px) {
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    padding-top: 40px;
-    padding-bottom: 40px;
+// @media (max-width:680px) {
+//   .hero {
+//     flex-direction: column;
+//     align-items: flex-start;
+//     text-align: left;
+//     padding-top: 40px;
+//     padding-bottom: 40px;
 
-    .hero-content {
-      width: 100%;
-      min-height: auto;
+//     .hero-content {
+//       width: 100%;
+//       min-height: auto;
 
-      .hero-content-header {
-        font-size: 36px;
-        line-height: 44px;
-      }
+//       .hero-content-header {
+//         font-size: 36px;
+//         line-height: 44px;
+//       }
 
-      .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        width: 100%;
-        margin-top: 32px;
+//       .hero-buttons {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 16px;
+//         width: 100%;
+//         margin-top: 32px;
 
-        .hero-fill-buton, .hero-fill2-button {
-          display: block;
-          width: 100%;
-          text-align: center;
-        }
-      }
-    .hero-image {
-      width: 100%;
-      height: auto;
-      margin-top: 32px;
+//         .hero-fill-buton, .hero-fill2-button {
+//           display: block;
+//           width: 100%;
+//           text-align: center;
+//         }
+//       }
+//     .hero-image {
+//       width: 100%;
+//       height: auto;
+//       margin-top: 32px;
 
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-    }
-    }
-  }
-}
+//       img {
+//         width: 100%;
+//         height: auto;
+//         display: block;
+//       }
+//     }
+//     }
+//   }
+// }
