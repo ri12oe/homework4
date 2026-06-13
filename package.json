@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-server",
-    "compile:sass": "sass sass/main.scss css/styles.css -w"
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
   },
   "devDependencies": {
     "sass": "^1.101.0"

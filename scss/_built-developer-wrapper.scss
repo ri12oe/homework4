@@ -1,0 +1,58 @@
+.built-developer-wrapper {
+  background-color: #ffffff;
+
+  .developer {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .built-image {
+      width: 528px;
+      height: 396px;
+      background-image: url(../images/about.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 14px;
+    }
+
+    .built-content {
+        width: 528px;
+        min-height: 400px;
+
+        .built-content-title {
+            font-weight: $primary-font-weight;
+            font-size: 36px;
+            line-height: 40px;
+            color: #0a0a0a;
+        }
+
+        .built-content-descri {
+            font-weight: $secondary-font-weight;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+  }
+}
+
+
+@media (max-width:680px) {
+  .developer {
+    flex-direction: column-reverse;
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    .built-content {
+      width: 100%;
+      min-height: auto;
+    }
+
+    .built-image {
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
